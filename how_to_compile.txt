@@ -1,2 +1,2 @@
-ml /c /Cx /coff chatmersenne.asm
+ml /c /Cx /coff /MP chatmersenne.asm
 link chatmersenne.obj /SUBSYSTEM:console /out:fibonacci.exe /entry:main
