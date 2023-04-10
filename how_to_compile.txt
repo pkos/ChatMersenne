@@ -1,2 +1,3 @@
-ml /c /Cx /coff /MP chatmersenne.asm
-link chatmersenne.obj /SUBSYSTEM:console /out:fibonacci.exe /entry:main
+ml64 /c /Cx /coff /Win64 chatmersenne.asm
+link chatmersenne.obj kernel32.lib user32.lib /SUBSYSTEM:CONSOLE /out:fibonacci.exe
+
